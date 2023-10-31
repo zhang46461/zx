@@ -9,7 +9,7 @@ IP="192.168.12.113"
 motion = ALProxy("ALMotion",IP,PORT)
 post = ALProxy("ALRobotPosture",IP,PORT)
 post.goToPosture("Stand",0.5)
-motion.moveTo(0.06, 0, 0)
+motion.moveTo(0.5, 0, 0)
 time.sleep(1.0)
 names = ["HeadYaw","HeadPitch"]
 angleLists0 = [0 * almath.TO_RAD, 20 * almath.TO_RAD]
