@@ -5,7 +5,7 @@ import numpy as np
 from naoqi import ALProxy
 
 PORT=9559
-IP="192.168.12.113"
+IP="192.168.12.107"
 motion = ALProxy("ALMotion",IP,PORT)
 post = ALProxy("ALRobotPosture",IP,PORT)
 post.goToPosture("Stand",0.5)
